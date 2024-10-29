@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1 {
+    width: 80%;
+    margin: 0 auto;
+    color: gray;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+p {
+    width: 60%;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 3;
+}
